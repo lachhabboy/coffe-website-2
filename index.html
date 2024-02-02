@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Responsive coffee shop website</title>
+
+</head>
+<body>
+<header class="header">
+    <a href="#" class="logo">
+        <img src="image/logo.png" alt="">
+    </a>
+
+    <nav class="navbar">
+        <a href="#home">home</a>
+        <a href="#about">about</a>
+        <a href="#menu">menu</a>
+        <a href="#products">products</a>
+        <a href="#review">review</a>
+        <a href="#contact">contact</a>
+        <a href="#blogs">blogs</a>
+    </nav>
+
+    <div class="icons">
+        <div class="fas fa-search" id="search-btn"></div>
+        <div class="fa-solid fa-cart-shopping" id="cart-btn"></div>
+        <div class="fas fa-bars" id="menu-btn"></div>
+    </div>
+
+    <div class="search-form">
+        <input type="search" id="search-box" placeholder="search here ...">
+        <label for="search-box" class="fas fa-search"></label>
+    </div>
+    <div class="cart-items-container">
+        <div class="cart-items">
+            <span class="fas fa-times"></span>
+            <img src="image/image1.png" alt="">
+            <div class="content">
+                <h3>cart items 01</h3>
+                <div class="prices">15MAD/-</div>
+            </div>
+        </div>
+        <div class="cart-items">
+            <span class="fas fa-times"></span>
+            <img src="image/image2.png" alt="">
+            <div class="content">
+                <h3>cart items 02</h3>
+                <div class="prices">15MAD/-</div>
+            </div>
+        </div>
+        <div class="cart-items">
+            <span class="fas fa-times"></span>
+            <img src="image/image3.png" alt="">
+            <div class="content">
+                <h3>cart items 03</h3>
+                <div class="prices">15MAD/-</div>
+            </div>
+        </div>
+        <div class="cart-items">
+            <span class="fas fa-times"></span>
+            <img src="image/image4.png" alt="">
+            <div class="content">
+                <h3>cart items 04</h3>
+                <div class="prices">15MAD/-</div>
+            </div>
+        </div>
+        <a href="#" class="btn">checkout now</a>
+    </div>
+
+</header>
+
+<section class="home" id="home">
+    <div class="content">
+        <h3>fresh coffee in the morning</h3>
+        <p>The customer himself, the customer will be able to achieve the desired result. Let labor be pleasing, let there be a distinction in the desire of rejecting the times.</p>
+        <a href="#" class="btn">get yours now</a>
+    </div>
+</section>
+
+<section class="about" id="about">
+
+    <h1 class="heading"><span>about</span> us</h1>
+
+    <div class="row">
+        <div class="image">
+            <img src="image/about-img.png" alt="">
+        </div>
+
+        <div class="content">
+            <h3>what makes our coffee special?</h3>
+            <p>Our coffee stands out with a meticulously curated blend of premium beans, sourced from sustainable farms worldwide, and a perfected roasting process that brings out rich, distinctive flavors for an unparalleled coffee experience</p>
+            <p>It is truly special due to the artisanal craftsmanship in every cup, combining ethically sourced beans.</p>
+            <a href="#" class="btn">learn more</a>
+        </div>
+    </div>
+</section>
+
+<section class="menu" id="menu">
+    <h1 class="heading"> our <span>menu</span></h1>
+    <div class="box-container">
+
+        <div class="box">
+            <img src="image/img1.png" alt="">
+            <h3>tasty and healthy</h3>
+            <div class="prices">25MAD <span>30MAD</span></div>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+
+        <div class="box">
+            <img src="image/img2.png" alt="">
+            <h3>tasty and healthy</h3>
+            <div class="prices">50MAD <span>60MAD</span></div>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+
+        <div class="box">
+            <img src="image/img3.png" alt="">
+            <h3>tasty and healthy</h3>
+            <div class="prices">50MAD <span>60MAD</span></div>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+
+        <div class="box">
+            <img src="image/img4.png" alt="">
+            <h3>tasty and healthy</h3>
+            <div class="prices">30MAD <span>45MAD</span></div>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+
+        <div class="box">
+            <img src="image/img5.png" alt="">
+            <h3>tasty and healthy</h3>
+            <div class="prices">40MAD <span>59MAD</span></div>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+
+        <div class="box">
+            <img src="image/img6.png" alt="">
+            <h3>tasty and healthy</h3>
+            <div class="prices">60MAD <span>75MAD</span></div>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+    </div>
+
+</section>
+
+<section class="products" id="products">
+    <h1 class="heading">our <span>products</span></h1>
+    <div class="box-container">
+
+        <div class="box">
+            <div class="icons">
+                <a href="#" class="fas fa-cart-shopping"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            <div class="image">
+                <img src="image/product-1.png" alt="">
+            </div>
+            <div class="content">
+                <h3>fresh coffee </h3>
+                <div class="stars">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-alt"></i>
+                </div>
+                <div class="prices">50MAD <span>69MAD</span></div>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="icons">
+                <a href="#" class="fas fa-cart-shopping"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            <div class="image">
+                <img src="image/product-2.png" alt="">
+            </div>
+            <div class="content">
+                <h3>fresh coffee </h3>
+                <div class="stars">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-alt"></i>
+                </div>
+                <div class="prices">50MAD <span>69MAD</span></div>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="icons">
+                <a href="#" class="fas fa-cart-shopping"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            <div class="image">
+                <img src="image/product-3.png" alt="">
+            </div>
+            <div class="content">
+                <h3>fresh coffee </h3>
+                <div class="stars">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-alt"></i>
+                </div>
+                <div class="prices">50MAD <span>69MAD</span></div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="review" id="review">
+
+    <h1 class="heading"> customer's <span>review</span></h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="image/quote.png" alt="" class="quote">
+            <p>Indulging in this coffee has been a game-changer for my mornings! The aroma alone is intoxicating, and the rich, velvety taste is a symphony of flavors that dance on my palate. The attention to detail in sourcing premium beans is evident, resulting in a cup that's smooth, well-balanced, and downright addictive. This coffee has elevated my daily ritual, making each sip a moment of pure bliss. Highly recommend for anyone seeking a truly exceptional coffee experience!</p>
+            <img src="image/cust-1.jpg" class="user" alt="">
+            <h3>Wassim Lachhab</h3>
+            <div class="stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half-alt"></i>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="image/quote.png" alt="" class="quote">
+            <p>Discovering this coffee has been a revelation for my taste buds. The quality of the beans shines through with every sip, delivering a robust yet smooth flavor profile that's unmatched. The attention to detail in the roasting process imparts a complexity that I've rarely encountered. This coffee has become my morning ritual, and I find myself savoring each cup like a true coffee enthusiast. The packaging is also noteworthy, keeping the freshness intact.</p>
+            <img src="image/cust-2.jpg" class="user" alt="">
+            <h3>Mohamed Achchabi</h3>
+            <div class="stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half-alt"></i>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="image/quote.png" alt="" class="quote">
+            <p>This coffee is a revelation! From the moment I opened the bag, the fragrance of freshly roasted beans filled the air, setting the stage for an extraordinary experience. The taste is nothing short of perfection – a harmonious blend of boldness and subtlety, with notes of caramel and a lingering, satisfying finish. It's evident that every aspect, from the ethical sourcing to the meticulous roasting, has been carefully considered.</p>
+            <img src="image/cust-3.jpg" class="user" alt="">
+            <h3>Jamila Abounnou</h3>
+            <div class="stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half-alt"></i>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<section class="contact" id="contact">
+
+    <h1 class="heading"> <span>contact</span> us </h1>
+
+    <div class="row">
+
+        <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d105512.83375224618!2d-6.682781942002933!3d34.26701210053604!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xda7575f8a6d8643%3A0xc7050653c05e128b!2zS8Opbml0cmEsIE1hcm9j!5e0!3m2!1sfr!2str!4v1706443365058!5m2!1sfr!2str" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+        <form action="">
+            <h3>get in touch</h3>
+            <div class="inputBox">
+                <span class="fas fa-user"></span>
+                <input type="text" placeholder="name">
+            </div>
+            <div class="inputBox">
+                <span class="fas fa-envelope"></span>
+                <input type="email" placeholder="email">
+            </div>
+            <div class="inputBox">
+                <span class="fas fa-phone"></span>
+                <input type="number" placeholder="number">
+            </div>
+            <input type="submit" value="contact now" class="btn">
+        </form>
+
+    </div>
+</section>
+
+<section class="blogs" id="blogs">
+
+    <h1 class="heading">our <span>blogs</span></h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <div class="image">
+                <img src="image/blog-1.jpg" alt="">
+            </div>
+            <div class="content">
+                <a href="#" class="title">tasty and refreshing coffee</a>
+                <span>by admin /28th jan, 2024</span>
+                <p>In a world that never seems to slow down, a cup of coffee serves as a cherished pause button, allowing us to savor the moments and rejuvenate our senses. The quest for the perfect brew has become an art form, and the magic lies not just in the caffeine kick but in the delightful blend of flavors that tantalize our taste buds.</p>
+                <a href="#" class="btn">read more</a>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="image/blog-2.jpg" alt="">
+                </div>
+                <div class="content">
+                    <a href="#" class="title">tasty and refreshing coffee</a>
+                    <span>by admin /28th jan, 2024</span>
+                    <p>Behind every cup of delicious coffee is a meticulous process that begins with selecting the finest beans. Whether it's the earthy notes of Arabica or the robust flavor of Robusta, the choice of beans sets the tone for the entire experience. Roasting is an art that transforms raw green beans into aromatic, flavorful gems. </p>
+                    <a href="#" class="btn">read more</a>
+                </div>
+                <div class="box">
+                    <div class="image">
+                        <img src="image/blog-3.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <a href="#" class="title">tasty and refreshing coffee</a>
+                        <span>by admin /28th jan, 2024</span>
+                        <p>The aromatic dance of coffee is an integral part of the experience. The first whiff of freshly ground beans is an invitation to indulge in a sensory delight. The fragrance lingers in the air, creating an atmosphere of warmth and comfort</p>
+                        <a href="#" class="btn">read more</a>
+                    </div>
+
+        </div>
+    </div>
+
+</section>
+
+<section class="footer">
+    <div class="shar">
+        <a href="#" class="fab fa-facebook-f"></a>
+        <a href="#" class="fab fa-twitter"></a>
+        <a href="#" class="fab fa-instagram"></a>
+        <a href="#" class="fab fa-linkedin"></a>
+        <a href="#" class="fab fa-pinterest"></a>
+    </div>
+
+    <div class="links">
+        <a href="#">home</a>
+        <a href="#">about</a>
+        <a href="#">menu</a>
+        <a href="#">products</a>
+        <a href="#">review</a>
+        <a href="#">contacts</a>
+        <a href="#">blogs</a>
+    </div>
+
+    <div class="credit">created by <span>web genius morocco</span> all rights reserved</div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="script.js"></script>
+</body>
+</html>
